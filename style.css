@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+}
+.modal{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    border: 3px solid black;
+    background-color: #790955;
+    display: none;
+    position: absolute;
+    left: 70%;
+    border-radius: 30px;
+    
+}
+.activate{
+    display: block; 
+}
+.activate form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    
+}
+form input{
+    width: 200px;
+}
+
+td, th {
+	padding: 3px;
+	width: 200px;
+}
+th {
+	background: #ae4a8e
+}
+table,tr,td,th{
+    border: 1px solid black;
+}
+
